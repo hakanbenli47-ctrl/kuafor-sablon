@@ -26,7 +26,7 @@ const { theme } = useTheme()
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
 
         <div className="text-2xl font-bold">
-          FUNDA
+          FİLİZ
           <span className="block text-sm opacity-60 tracking-wide">
             Güzellik Merkezi
           </span>
@@ -40,7 +40,7 @@ const { theme } = useTheme()
         </nav>
 
         <Link
-          href="/fundakuafor"
+          href="/filizkuafor"
           className={`${theme.button} px-5 py-2 text-sm transition`}
         >
           Randevu Al
@@ -66,13 +66,13 @@ export default function Home() {
 
         <div className={`relative z-10 px-6 max-w-3xl space-y-6 ${theme.heroText}`}>
           <h1 className="text-5xl md:text-6xl font-bold">
-            Funda Güzellik Merkezi
+            Filiz Güzellik Merkezi
           </h1>
           <p className="text-lg md:text-xl">
             Sakarya'nın en güvenilir ve modern güzellik deneyimi.
           </p>
           <Link
-            href="/fundakuafor"
+            href="/filizkuafor"
 className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
           >
             Hemen Randevu Al
@@ -122,7 +122,7 @@ className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
         </p>
 
         <Link
-          href="/fundakuafor"
+          href="/filizkuafor"
           className={`inline-block mt-6 ${theme.button} px-6 py-2 rounded-lg`}
         >
           Randevu Al
@@ -186,7 +186,7 @@ className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
           <p className="opacity-70 text-sm">{item.desc}</p>
 
           <Link
-            href="/fundakuafor"
+            href="/filizkuafor"
            className={`inline-block ${theme.link} font-semibold hover:underline`}
           >
             Randevu Al →
@@ -205,7 +205,7 @@ className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
       <img
         src="/about.jpg"
         className="w-full h-[500px] object-cover rounded-xl shadow-xl"
-        alt="Funda Güzellik Merkezi"
+        alt="Filiz Güzellik Merkezi"
       />
     </div>
 
@@ -217,7 +217,7 @@ className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
      <div className={`w-20 h-1 ${theme.accentLine}`}></div>
 
       <p className="opacity-80 leading-relaxed">
-        Funda Güzellik Merkezi olarak amacımız sadece hizmet sunmak değil,
+        Filiz Güzellik Merkezi olarak amacımız sadece hizmet sunmak değil,
         kendinizi özel hissettiğiniz bir deneyim yaşatmaktır.
         Hijyen standartlarımız, profesyonel ekibimiz ve son teknoloji cihazlarımız
         ile Sakarya’da güvenilir bir marka olmayı başardık.
@@ -229,7 +229,7 @@ className={`${theme.button} px-8 py-4 rounded-lg font-semibold transition`}
       </p>
 
       <Link
-        href="/fundakuafor"
+        href="/filizkuafor"
 className={`inline-block ${theme.button} px-8 py-3 mt-4 transition`}
       >
         Randevu Al
@@ -287,7 +287,7 @@ className={`inline-block ${theme.button} px-8 py-3 mt-4 transition`}
       <section className={`py-20 text-center ${theme.ctaBg} ${theme.ctaText}`}>
         <h3 className="text-3xl font-bold mb-4">Randevu İçin Hazır Mısın?</h3>
         <Link
-          href="/fundakuafor"
+          href="/filizkuafor"
          className={`bg-white ${theme.link} px-8 py-3 rounded-lg font-semibold`}
         >
           Hemen Randevu Al
@@ -298,7 +298,7 @@ className={`inline-block ${theme.button} px-8 py-3 mt-4 transition`}
       <footer className={`${theme.footerBg} ${theme.footerText} text-center py-12`}>
         <p>Sakarya – Türkiye</p>
         <p className="opacity-70 mt-1">0530 630 67 91 </p>
-        <p className="opacity-50 mt-6 text-sm">© 2026 Funda Güzellik Merkezi</p>
+        <p className="opacity-50 mt-6 text-sm">© 2026 Filiz Güzellik Merkezi</p>
       </footer>
 
     </main>
